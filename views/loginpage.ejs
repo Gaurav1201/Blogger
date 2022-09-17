@@ -1,0 +1,16 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+        <form  action="http://localhost:8080/login " method='post'>
+            <input required  type="email" placeholder="enter email_id" name="email">
+            <input required type="password" placeholder="enter password" name="password">
+            <input type="submit">
+        </form>
+        <% if(pass1==false) {%>
+        <p>email not found</p>
+        <% } %>
+    </body>
+</html>
